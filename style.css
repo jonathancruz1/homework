@@ -1,0 +1,94 @@
+/** Week 1 - Home Assignment CSS **/
+
+* {
+  	box-sizing: border-box;
+  	text-align: center;
+}
+
+body {
+  	background-color: #777;
+  	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	font-size: 18px;
+  	padding: 0px;
+  	color:#777;
+}
+
+nav{
+	background-color: #ebebeb;
+	padding: 20px;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+header {
+	background: #ebebeb;
+	padding: 25px;
+	height:70px;
+	margin-bottom: 10px;
+}
+/** h1 tag - Homework stated font size in the layout should he 18px. I know the h1 tag is normally a larger font. **/
+h1{
+	font-size:18px;
+	font-weight: bold;
+}
+p{
+	font-size: 18px;
+	margin:0;
+}
+section{
+	width: 495px;
+	height:275px;
+	background: #ebebeb;
+	padding: 20px;
+	margin-bottom:20px;
+}
+
+aside{
+	width: 445px;
+	height:275px;
+	background: #ebebeb;
+	padding: 20px;
+	margin-bottom:20px;
+}
+
+footer{
+	clear:both;
+	background:#ebebeb;
+	height: 70px;
+	padding: 25px;
+}
+#wrapper{
+	width: 960px; 
+	margin: 0 auto; 
+}
+
+#left{
+	float:left;
+	margin-right:20px;
+}
+#right{
+	float:left;
+}
+
+#article{
+	background: #777;
+	padding:20px;
+	height: 180px;
+	margin-top:30px;
+	color:#ebebeb;
+}
+
+#headers{
+	background: #ebebeb;
+	padding:10px;
+	margin-top:20px;
+	color:#777;
+	font-weight: bold;
+}
+
+#paragraph{
+	background: #ebebeb;
+	padding:10px;
+	margin-top:20px;
+	color:#777;
+}
